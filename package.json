@@ -1,0 +1,31 @@
+{
+  "name": "stickynotes",
+  "version": "0.4.0",
+  "description": "A Sticky Note Application.",
+  "author": "B. Ramnath Shenoy <bekalshenoy@gmail.com>",
+  "main": "background.js",
+  "scripts": {
+    "build": "vue-cli-service electron:build",
+    "postinstall": "electron-builder install-app-deps",
+    "postuninstall": "electron-builder install-app-deps",
+    "start": "vue-cli-service electron:serve"
+  },
+  "dependencies": {
+    "dropbox": "^4.0.30",
+    "jsdom": "^16.2.0",
+    "quill": "latest",
+    "showdown": "^1.9.1",
+    "sweetalert": "latest"
+  },
+  "devDependencies": {
+    "@vue/cli-service": "latest",
+    "electron": "beta",
+    "vue": "latest",
+    "vue-cli-plugin-electron-builder": "latest",
+    "vue-router": "latest",
+    "vue-template-compiler": "latest"
+  },
+  "homepage": "https://github.com/Playork/StickyNotes",
+  "license": "MIT",
+  "repository": "https://github.com/Playork/StickyNotes.git"
+}
